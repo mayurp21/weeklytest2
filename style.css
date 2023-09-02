@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #eeedef;
+}
+
+nav {
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    position:sticky;
+    top:0px;
+    z-index: 1;
+}
+
+nav>a,
+nav>div>a {
+    color: white;
+    text-decoration: none;
+    margin-inline: 10px
+}
+
+#books,#register {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+#books-div,#register-div {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px darkgrey;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+#book-heading,#register-div>h3{
+    font-weight: 900; 
+    margin-top;10px;
+    margin-bottom;20px;
+}
+table,td,th{
+    border:2px solid #ececec;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+}
+td>a{
+    color:#5f5dd2;
+    display:inline-block;
+    padding-bottom: 10px;
+}
+#register-div{
+    width:620px;
+}
+form{
+   display: flex;
+   flex-direction: column;
+}
+label{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size:20px;
+}
+input{
+    border:2px solid #ececec;
+    padding: 5px;
+}
+button{
+    background-color: black;
+    color:white;
+    border:non;
+    font-size;20px;
+    margin-top: 10px;
+    padding:10px;
+}
